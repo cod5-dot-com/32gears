@@ -1,0 +1,25 @@
+
+loader.elf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00008000 <_startup>:
+    8000:	e1a0300f 	mov	r3, pc
+    8004:	e2433008 	sub	r3, r3, #8, 0
+    8008:	e1a0d003 	mov	sp, r3
+    800c:	e2833c02 	add	r3, r3, #512	; 0x200
+    8010:	e3a04402 	mov	r4, #33554432	; 0x2000000
+    8014:	e2845701 	add	r5, r4, #262144	; 0x40000
+
+00008018 <copy>:
+    8018:	e5936000 	ldr	r6, [r3]
+    801c:	e5846000 	str	r6, [r4]
+    8020:	e2833004 	add	r3, r3, #4, 0
+    8024:	e2844004 	add	r4, r4, #4, 0
+    8028:	e1540005 	cmp	r4, r5
+    802c:	3afffff9 	bcc	8018 <copy>
+
+00008030 <next>:
+    8030:	e3a04402 	mov	r4, #33554432	; 0x2000000
+    8034:	e12fff14 	bx	r4
