@@ -1,0 +1,4 @@
+
+all:
+	electron main.js &
+

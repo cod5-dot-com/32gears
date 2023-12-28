@@ -1,0 +1,4 @@
+
+echo "include config/mk-linux-x86_64-linux-i386.mk" > Makefile
+echo "include config/mk-clean.mk" >> Makefile
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>zeudjak - The JavaScript Kit</title>
+<script id="scripts" src="include.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="height:100%; width:100%; margin: 0px; padding:0px;"
+>
+<canvas id="canvas" width="640" height="480" style="border-style:solid;"></canvas>
+<div style="display:none;" >
+<div style="text-align: right" >
+<form action="https://site-suisse.ch/edit/fs.php" method ="post" onsubmit="return false;" id="ajax" enctype="multipart/form-data">
+<input type="text" id="user" name="user" value="" placeholder="user name">
+<input type="password" id="pass" name="pass" value="" placeholder = "******">
+<input type="hidden" id="func" name="func" value="">
+<label for="target">File:</label>
+<input type="text" id="target" name="target" value="App.js">
+<input type="hidden" id="size" name="size" value="">
+<input type="hidden" id="seek" name="seek" value="">
+<label for="folder">Folder:</label>
+<input type="text" id="folder" name="folder" value="root">
+<input style_="display:none;" id="files" type="file" multiple_ name="files[]">
+</form>
+<audio id="audiooutput" controls ></audio>
+</div>
+</div>
+<script src="TheApp.js" >
+</script></body>
+</html>
