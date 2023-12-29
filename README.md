@@ -1,5 +1,6 @@
+https://32gears.com
 
-                               [32gears OS](https://32gears.com)
+                               32gears OS
 
               The authors disclaim copyright to this software.
 
