@@ -72,3 +72,5 @@ https://github.com/robertapengelly/dosfstools
 
 https://github.com/inferno-os/inferno-os
 
+https://www.youtube.com/@javidx9/videos
+
